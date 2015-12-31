@@ -1,0 +1,39 @@
+.bloc
+{
+    width: 800px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+
+}
+
+.texte
+{
+    display: inline-flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+}
+
+.svgObject
+{
+    padding: 3px;
+}
+
+ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}

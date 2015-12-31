@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>offcanvas</title>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bower_components/bootstrap-offcanvas/dist/css/bootstrap.offcanvas.css">
+        <link rel="stylesheet" href="bower_components/perso/css/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-default" role="navigation">
+                <div>
+
+                    <!-- éléments de la navbar -->
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Lorem Ipsum inc.</a>
+
+                        <button class="btn offcanvas-toggle navbar-btn navbar-left" data-toggle="offcanvas" data-target="#menu-offcanvas-left">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+
+                        <div class="btn navbar-btn offcanvas-toggle navbar-right" data-toggle="offcanvas" data-target="#menu-offcanvas-right">
+                            <span class="glyphicon glyphicon-menu-hamburger"></span>
+                            <span class="label label-success">New !</span>
+                        </div>
+
+                    </div>
+
+                    <!-- menu de gauche -->
+                    <div class="navbar-offcanvas" id="menu-offcanvas-right">
+                        <ul class="nav nav-pills nav-stacked">
+                            <li><a href="#">Ouvrir</a></li>
+                            <li><a href="#">Enregistrer</a></li>
+                            <li><a href="#">Déconnexion</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Menu de droite -->
+                    <div class="navbar-offcanvas navbar-offcanvas-right" id="menu-offcanvas-left">
+                        <!-- Bouton de recherche -->
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Chercher...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-info" type="button">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </span>
+                        </div>
+
+                        <!-- Liste de resultats (menu gauche) -->
+                        <ul>
+                            <li>
+                                <div class="texte">C10</div>
+                                <img src="img/truc.svg" class="svgObject">
+                            </li>
+
+                            <li class="nav-divider"></li>
+
+                            <li>
+                                <div class="texte">C11</div>
+                                <img src="img/truc.svg" class="svgObject">
+                            </li>
+
+                            <li class="nav-divider"></li>
+
+                            <li>
+                                <div class="texte">C12</div>
+                                <img src="img/truc.svg" class="svgObject">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>Page Title</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin feugiat hendrerit feugiat. In cursus nisl id arcu ullamcorper, eget euismod ante tincidunt. Cras placerat facilisis semper. Nam vel nisl sit amet justo interdum luctus. Mauris eu felis pretium velit mollis molestie. Nam aliquet a tellus ut pretium. Pellentesque fermentum nulla tempus mauris sagittis, eget imperdiet quam tristique. Pellentesque quis mauris mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sodales turpis fringilla ligula rutrum, eget mattis justo bibendum. Integer imperdiet mi non cursus bibendum. Nullam vitae cursus justo. Integer quis elit sit amet arcu pellentesque <a href="http://www.google.com">google</a> sit amet a sapien. Aliquam tincidunt felis eget quam euismod cursus. Suspendisse lobortis ut elit vitae rhoncus. Ut tincidunt, ante eu egestas sodales, dui nulla aliquet mi, a eleifend lacus risus sit amet lacus.</p>
+                </div>
+                <div class="col-sm-12">
+                    <h1>Page Title</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin feugiat hendrerit feugiat. In cursus nisl id arcu ullamcorper, eget euismod ante tincidunt. Cras placerat facilisis semper. Nam vel nisl sit amet justo interdum luctus. Mauris eu felis pretium velit mollis molestie. Nam aliquet a tellus ut pretium. Pellentesque fermentum nulla tempus mauris sagittis, eget imperdiet quam tristique. Pellentesque quis mauris mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sodales turpis fringilla ligula rutrum, eget mattis justo bibendum. Integer imperdiet mi non cursus bibendum. Nullam vitae cursus justo. Integer quis elit sit amet arcu pellentesque <a href="http://www.google.com">google</a> sit amet a sapien. Aliquam tincidunt felis eget quam euismod cursus. Suspendisse lobortis ut elit vitae rhoncus. Ut tincidunt, ante eu egestas sodales, dui nulla aliquet mi, a eleifend lacus risus sit amet lacus.</p>
+                </div>
+                <div class="col-sm-12">
+                    <h1>Page Title</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin feugiat hendrerit feugiat. In cursus nisl id arcu ullamcorper, eget euismod ante tincidunt. Cras placerat facilisis semper. Nam vel nisl sit amet justo interdum luctus. Mauris eu felis pretium velit mollis molestie. Nam aliquet a tellus ut pretium. Pellentesque fermentum nulla tempus mauris sagittis, eget imperdiet quam tristique. Pellentesque quis mauris mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sodales turpis fringilla ligula rutrum, eget mattis justo bibendum. Integer imperdiet mi non cursus bibendum. Nullam vitae cursus justo. Integer quis elit sit amet arcu pellentesque <a href="http://www.google.com">google</a> sit amet a sapien. Aliquam tincidunt felis eget quam euismod cursus. Suspendisse lobortis ut elit vitae rhoncus. Ut tincidunt, ante eu egestas sodales, dui nulla aliquet mi, a eleifend lacus risus sit amet lacus.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- scripts -->
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bower_components/bootstrap-offcanvas/dist/js/bootstrap.offcanvas.min.js"></script>
+    </body>
+</html>

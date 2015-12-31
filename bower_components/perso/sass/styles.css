@@ -1,0 +1,42 @@
+/****** Search **** */
+#searchBar div {
+  display: flex; }
+  #searchBar div div {
+    display: inline; }
+    #searchBar div div input {
+      margin: 0; }
+    #searchBar div div a {
+      font-size: 0.875rem;
+      margin: 0;
+      border: 0; }
+
+/****** Menu right ***** */
+.svgObject {
+  padding: 3px;
+  background-color: white; }
+  .svgObject svg {
+    max-height: 50px;
+    max-width: 90px; }
+
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .result div {
+    display: inline-flex; }
+    .result div.margin-auto {
+      margin-top: auto;
+      margin-bottom: auto; }
+
+.off-canvas-list li label {
+  line-height: 24px; }
+  .off-canvas-list li label span {
+    margin-left: 10px;
+    vertical-align: middle; }
+  .off-canvas-list li label i {
+    color: white;
+    vertical-align: middle; }
+  .off-canvas-list li label.separator label {
+    cursor: default; }
+
+/*# sourceMappingURL=styles.css.map */
